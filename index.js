@@ -40,6 +40,7 @@ const verifyRequest = (req, res, next) => {
 
 }
 
+//connect 
 async function run() {
     try {
         await client.connect();

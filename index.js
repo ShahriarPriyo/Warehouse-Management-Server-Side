@@ -140,6 +140,8 @@ async function run() {
 }
 run().catch(console.dir);
 
+//server running check
+
 app.get('/', (req, res) => {
     res.send('Hey i am from server');
 })
